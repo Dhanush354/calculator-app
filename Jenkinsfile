@@ -7,11 +7,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Dhanush354/calculator-app.git'
-            }
-        }
 
         stage('Build & Test') {
             steps {
